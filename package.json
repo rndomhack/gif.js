@@ -6,13 +6,13 @@
   "main": "index.js",
   "repository": "https://github.com/jnordberg/gif.js.git",
   "devDependencies": {
-    "browserify": "^13.1.1",
-    "coffeeify": "^2.1.0",
-    "exorcist": "^0.4.0",
-    "uglify-js": "^2.7.5"
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^1.12.7",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "prepublish": "./bin/build"
+    "build": "webpack"
   },
   "browser": "./dist/gif.js",
   "keywords": [
